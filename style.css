@@ -1,0 +1,167 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav{
+  display: flex;
+  height: 5rem;
+  width: 100%;
+  justify-content: space-between;
+  background-color:rgb(98, 208, 228);
+}
+.nav-list ul{
+  display: flex;
+  margin: 30px 30px 30px;
+}
+.nav-list li{
+  margin: auto 10px;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+  color: white
+}
+.logo{
+  /* border: 1px solid black; */
+  height: ;
+  background-color: whitesmoke;
+}
+img{
+  width: 200px;
+}
+.apply{
+  padding: 20px 30px;
+  color: white;
+  background-color: rgb(30, 30, 204);
+  border-radius: 30px;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 20px;
+}
+body{
+  background-color: black;
+}
+
+section {
+  padding: 40px 20px;
+  margin: 20px auto;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+/* About Section */
+#about{
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+}
+#about p {
+  line-height: 1.6;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  font-size: 20px;
+  color: white;
+}
+.text{
+  width: 50%;
+  height: inherit;
+}
+
+
+/* Skills Section */
+#skills{
+  background-color: rgb(107, 19, 19);
+}
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills ul li {
+  background-color: #eee;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* Projects Section */
+.project {
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.project a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* Experience and Education Sections */
+.job, .school {
+  margin-bottom: 20px;
+}
+
+.job h3, .school h3 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+/* Contact Section */
+#contact{
+  background-color: greenyellow;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #c21616;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  bottom:0;
+}
